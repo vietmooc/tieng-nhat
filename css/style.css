@@ -61,6 +61,14 @@ ul.section-list a.active { background: #e0e7ff; color: #2563eb; font-weight: 600
 .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
 .markdown-body img { max-width: 100%; height: auto; border-radius: 4px; }
 
+/* Navigation giữa các bài học */
+.lesson-nav { display: flex; justify-content: space-between; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e5e7eb; gap: 1rem; }
+.nav-btn { display: inline-flex; align-items: center; padding: 0.6rem 1rem; border: 1px solid #d1d5db; border-radius: 6px; color: #374151; font-weight: 500; background: #fff; transition: all 0.2s; max-width: 45%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.nav-btn:hover { background: #f3f4f6; border-color: #2563eb; color: #2563eb; text-decoration: none; }
+.nav-btn.prev::before { content: "❮ "; margin-right: 0.5rem; font-size: 0.85rem; }
+.nav-btn.next::after { content: " ❯"; margin-left: 0.5rem; font-size: 0.85rem; }
+.nav-btn.disabled { opacity: 0.4; cursor: not-allowed; pointer-events: none; background: #f9f9fa; color: #9ca3af; }
+
 /* PC Layout: Khóa cứng Viewport để kích hoạt cuộn độc lập 2 bên */
 @media (min-width: 768px) {
     body.lesson-page { display: flex; flex-direction: column; height: 100vh; overflow: hidden; }
