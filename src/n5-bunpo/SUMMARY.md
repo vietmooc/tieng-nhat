@@ -1,4 +1,4 @@
-# Ngữ pháp N5
+# JLPT N5文法
 
 - [は](wa.md)
 - [も](mo.md)

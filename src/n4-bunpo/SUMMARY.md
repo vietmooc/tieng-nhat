@@ -1,4 +1,4 @@
-# Ngữ pháp N4
+# JLPT N4文法
 
 - [普通形](the-thong-thuong.md)
 - [〜と思います](to-omoimasu.md)

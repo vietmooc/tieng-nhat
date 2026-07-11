@@ -1,4 +1,4 @@
-# Ngữ pháp N1
+# JLPT N1文法
 
 - [「よそに」](01-yosoni.md)
 - [「おろか」](02-oroka.md)

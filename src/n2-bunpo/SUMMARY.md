@@ -1,4 +1,4 @@
-# Ngữ pháp N2
+# JLPT N2文法
 
 - [「一方 vs 上で」](01-ippou-uede.md)
 - [「ようとする vs 欠かせない」](02-you-to-suru-kakasenai.md)
@@ -17,7 +17,7 @@
 - [「とはいえ vs ものの」](15-tohaie-monono.md)
 - [「ばかりに vs ばかりか」](16-bakarini-bakarika.md)
 - [「ないですむ vs なくはない」](17-naidesumu-nakuhanai.md)
-- [「ことだ vs ด้วย」](18-kotoda-kotode.md)
+- [「ことだ vs ことで」](18-kotoda-kotode.md)
 - [「といえば vs といった」](19-toieba-toitta.md)
 - [「としたら vs として」](20-toshitara-toshite.md)
 - [「によって」](21-niyotte.md)

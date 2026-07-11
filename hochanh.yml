@@ -3,8 +3,8 @@ description: "Tự học Tiếng Nhật từ N5 đến N1"
 author: "Dũng Rừng"
 
 course:
-  - "JLPT N5文法": "n5-bunpo/"
-  - "JLPT N4文法": "n4-bunpo/"
-  - "JLPT N3文法": "n3-bunpo/"
-  - "JLPT N2文法": "n2-bunpo/"
-  - "JLPT N1文法": "n1-bunpo/"
+  - "JLPT N5文法（ベトナム語）- Chưa làm": "n5-bunpo/"
+  - "JLPT N4文法（ベトナム語）- Chưa làm": "n4-bunpo/"
+  - "JLPT N3文法（日本語）": "n3-bunpo/"
+  - "JLPT N2文法（日本語）": "n2-bunpo/"
+  - "JLPT N1文法（日本語）": "n1-bunpo/"

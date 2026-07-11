@@ -1,4 +1,4 @@
-# Ngữ pháp N3
+# JLPT N3文法
 
 - [「～だらけ、～おかげ、～せい」](01-darake-okage-sei.md)
 - [「～について、～に関して」](02-tsuite-nikanshite.md)
