@@ -1,5 +1,5 @@
 ---
-title: "「～最中、～間、～間に""
+title: ～最中、～間、～間に
 youtube: https://www.youtube.com/watch?v=LqxDq2EsH20
 ---
 
