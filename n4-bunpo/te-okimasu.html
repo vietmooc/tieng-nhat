@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>〜ておきます - Tiếng Nhật Dũng Rừng</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="data:,">
+</head>
+<body>
+    <header class="site-header">
+        <h2><a href="/">Tiếng Nhật Dũng Rừng</a></h2>
+    </header>
+
+    <!-- Thanh Topbar (Breadcrumb cho PC & Nút Menu cho Mobile) -->
+    <div class="lesson-topbar">
+        <a href="/n4-bunpo/" class="back-link">❮ n4-bunpo</a>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <span class="menu-toggle-icon">☰</span>
+            Mục lục
+        </button>
+    </div>
+
+    <div class="lesson-layout">
+        <!-- Overlay nền đen mờ khi mở menu trên Mobile -->
+        <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+        <!-- Left Menu (Mặc định ẩn bên trái trên Mobile, cố định trên PC) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>Nội dung khóa học</h3>
+                <button class="close-btn" onclick="toggleMenu()">×</button>
+            </div>
+            <div class="sidebar-content">
+                
+                    
+                        <h4 class="section-title">Ngữ pháp N4</h4>
+                    
+                    <ul class="section-list">
+                        
+                        <li>
+                            <a href="/n4-bunpo/the-thong-thuong.html" class="">
+                                普通形
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/to-omoimasu.html" class="">
+                                〜と思います
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/to-iimasu.html" class="">
+                                〜と言います
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/deshou.html" class="">
+                                〜でしょう
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/kamoshiremasen.html" class="">
+                                〜かもしれません
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/nagara.html" class="">
+                                〜ながら
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/mae-ni.html" class="">
+                                〜前に
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/ato-de.html" class="">
+                                〜あとで
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-kara.html" class="">
+                                〜てから
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/aida.html" class="">
+                                〜間
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/aida-ni.html" class="">
+                                〜間に
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/made-ni.html" class="">
+                                〜までに
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/ta-koto-ga-arimasu.html" class="">
+                                〜たことがあります
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/tari-tari.html" class="">
+                                〜たり〜たりします
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-shimaimasu.html" class="">
+                                〜てしまいます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-mimasu.html" class="">
+                                〜てみます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-okimasu.html" class="active">
+                                〜ておきます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-ikimasu.html" class="">
+                                〜ていきます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-kimasu.html" class="">
+                                〜てきます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/you-ni-narimasu.html" class="">
+                                〜ようになります
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/you-ni-shimasu.html" class="">
+                                〜ようにします
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/you-ni-iimasu.html" class="">
+                                〜ように言います
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/koto-ni-narimasu.html" class="">
+                                〜ことになります
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/koto-ni-shimasu.html" class="">
+                                〜ことにします
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/kanoukei.html" class="">
+                                可能形
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/koto-ga-dekimasu.html" class="">
+                                〜ことができます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/shika.html" class="">
+                                〜しか〜ません
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/bakari.html" class="">
+                                〜ばかり
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/dake.html" class="">
+                                〜だけ
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/demo.html" class="">
+                                〜でも
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/souda-youtai.html" class="">
+                                〜そうです（様態）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/souda-denbun.html" class="">
+                                〜そうです（伝聞）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/youda-basic.html" class="">
+                                〜ようです（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/ukemikei.html" class="">
+                                受身形（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/shiekikei.html" class="">
+                                使役形（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/shieki-ukemi.html" class="">
+                                使役受身形（入門）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-itadakemasenka.html" class="">
+                                〜ていただけませんか
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-kudasaimasuka.html" class="">
+                                〜てくださいますか
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-itadakimasu.html" class="">
+                                〜ていただきます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-kudasaimasu.html" class="">
+                                〜てくださいます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-kuremasu.html" class="">
+                                〜てくれます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/te-moraimasu.html" class="">
+                                〜てもらいます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/naide-kudasai.html" class="">
+                                〜ないでください
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/nakutemo-ii.html" class="">
+                                〜なくてもいいです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/nakereba-narimasen.html" class="">
+                                〜なければなりません
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/nakutewa-ikemasen.html" class="">
+                                〜なくてはいけません
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/nakutemo-kamaimasen.html" class="">
+                                〜なくてもかまいません
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/yasui.html" class="">
+                                〜やすい
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/nikui.html" class="">
+                                〜にくい
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/sugimasu.html" class="">
+                                〜すぎます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/hajimemasu.html" class="">
+                                〜始めます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/owarimasu.html" class="">
+                                〜終わります
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/tsuzukemasu.html" class="">
+                                〜続けます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/tame-ni.html" class="">
+                                〜ために
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/node.html" class="">
+                                〜ので
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/kara-riyuu.html" class="">
+                                〜から（理由）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/noni-basic.html" class="">
+                                〜のに（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/ga-gyakusetsu.html" class="">
+                                〜が（逆接）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/keredomo.html" class="">
+                                〜けれども
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/shi.html" class="">
+                                〜し
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/houga-ii.html" class="">
+                                〜ほうがいいです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/you-to-omoimasu.html" class="">
+                                〜ようと思います
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/yotei.html" class="">
+                                〜予定です
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/tsumori.html" class="">
+                                〜つもりです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/juju-hyougen.html" class="">
+                                授受表現（あげる・くれる・もらう）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/keigo-basic.html" class="">
+                                敬語（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/jidoushi-tadoushi-basic.html" class="">
+                                自動詞・他動詞（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/tara.html" class="">
+                                条件形（〜たら）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/to-jouken.html" class="">
+                                条件形（〜と）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/n4-bunpo/ba-basic.html" class="">
+                                条件形（〜ば・入門）
+                            </a>
+                        </li>
+                        
+                    </ul>
+                
+            </div>
+        </aside>
+
+        <!-- Nội dung bài học chính -->
+        <main class="content">
+            <!-- Icon Play và Tiêu đề ngay phía trên Video -->
+            <h1 class="lesson-main-title">〜ておきます</h1>
+            
+            
+            
+            <div class="markdown-body">
+                <p>Nội dung bài học <strong>〜ておきます</strong> sẽ được viết tại đây...</p>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Script Vanilla JS siêu nhẹ để đóng/mở menu trên Mobile -->
+    <script>
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('overlay').classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
