@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>「にわたって vs につれて」 - Tiếng Nhật Dũng Rừng</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="data:,">
+</head>
+<body class="lesson-page">
+    <header class="site-header">
+        <h2><a href="../index.html">Tiếng Nhật Dũng Rừng</a></h2>
+    </header>
+
+    <!-- Thanh Topbar điều hướng tương đối -->
+    <div class="lesson-topbar">
+        <a href="index.html" class="back-link">❮ n2-bunpo</a>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <span class="menu-toggle-icon">☰</span>
+            Mục lục
+        </button>
+    </div>
+
+    <div class="lesson-layout">
+        <!-- Overlay nền tối trên Mobile -->
+        <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+        <!-- Left Menu (Hỗ trợ cuộn độc lập) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>Nội dung khóa học</h3>
+                <button class="close-btn" onclick="toggleMenu()">×</button>
+            </div>
+            <div class="sidebar-content" id="sidebar-content">
+                
+                    
+                        <h4 class="section-title">Ngữ pháp N2</h4>
+                    
+                    <ul class="section-list">
+                        
+                        <li>
+                            <a href="01-ippou-uede.html" class="">
+                                「一方 vs 上で」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="02-you-to-suru-kakasenai.html" class="">
+                                「ようとする vs 欠かせない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="03-kotohanai-shidai.html" class="">
+                                「ことはない vs 次第」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="04-sueni-dakeni.html" class="">
+                                「末に vs だけに」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="05-niwatatte-nitsurete.html" class="active">
+                                「にわたって vs につれて」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="06-kanemasu-kanenai.html" class="">
+                                「かねます vs かねない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="07-nikaketeha-womegutte.html" class="">
+                                「にかけては vs をめぐって」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="08-wotowazu-wohajime.html" class="">
+                                「を問わず vs をはじめ」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="09-nikakawarazu-nimokakawarazu.html" class="">
+                                「にかかわらず vs にもかかわらず」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="10-wakeda-wakeniwaikanai.html" class="">
+                                「わけだ vs わけにはいかない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="11-wakeganai-wakedewanai.html" class="">
+                                「わけがない vs わけではない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="12-wake.html" class="">
+                                「わけ」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="13-nisotte-motode.html" class="">
+                                「に沿って vs もとで」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="14-uru-eru-enai-zaruwoenai.html" class="">
+                                「うる・える・えない vs ざるを得ない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="15-tohaie-monono.html" class="">
+                                「とはいえ vs ものの」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="16-bakarini-bakarika.html" class="">
+                                「ばかりに vs ばかりか」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="17-naidesumu-nakuhanai.html" class="">
+                                「ないですむ vs なくはない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="18-kotoda-kotode.html" class="">
+                                「ことだ vs ด้วย」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="19-toieba-toitta.html" class="">
+                                「といえば vs といった」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="20-toshitara-toshite.html" class="">
+                                「としたら vs として」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="21-niyotte.html" class="">
+                                「によって」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="22-ijou-ueni.html" class="">
+                                「以上 vs 上に」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="23-gatai-gachi.html" class="">
+                                「がたい vs がち」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="24-kanoyouda-toiuto.html" class="">
+                                「かのようだ vs というと」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="25-muki-muke.html" class="">
+                                「向き vs 向け」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="26-toittemo-wariniha.html" class="">
+                                「といっても vs わりには」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="27-tekaradenaito-naikotoniha.html" class="">
+                                「てからでないと vs ないことには」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="28-karasuruto-karashite.html" class="">
+                                「からすると vs からして」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="29-monodakara-kotodakara.html" class="">
+                                「ものだから vs ことだから」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="30-hokahanai-nihokanaranai.html" class="">
+                                「ほか（は）ない vs にほかならない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="31-saichuu-ni-saishite.html" class="">
+                                「最中に vs に際して」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="32-nikagiru-nikagitte.html" class="">
+                                「に限る vs に限って」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="33-nikagirazu-kagiri.html" class="">
+                                「に限らず vs かぎり vs かぎりでは」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="34-teshouganai-zunihairarenai.html" class="">
+                                「てしょうがない vs ないで／ずにはいられない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="35-kotokara-hatomokaku.html" class="">
+                                「ことから vs はともかく vs ならともかく」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="36-nishitemo-nishiro-niseyo.html" class="">
+                                「にしても vs にしろ vs にせよ」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="37-monoka-mononara.html" class="">
+                                「ものか vs ものなら」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="38-youdehanai-donnani.html" class="">
+                                「ようではない vs どんなに（どれだけ）～か」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="39-toiukotoda-datte.html" class="">
+                                「ということだ vs ～だって」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="40-nisuginai-kkonai.html" class="">
+                                「にすぎない vs っこない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="41-nitatshite-dake.html" class="">
+                                「に達して vs ～だけ」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="42-shidai-nioujite.html" class="">
+                                「次第 vs ～に応じて」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="43-toha-narini.html" class="">
+                                「～とは vs なりに」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="44-hamochiron-nukiinishiteha.html" class="">
+                                「はもちろん vs Nを抜きにしては」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="45-garu-nimotozuite.html" class="">
+                                「がる vs に基づいて」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="46-amari-okini.html" class="">
+                                「～あまり vs ～おきに」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="47-tokorodatta-dokorodehanai.html" class="">
+                                「～ところだった vs ～どころではない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="48-monoda-monodehanai.html" class="">
+                                「ものだ・ものではない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="49-hodo-bahodo.html" class="">
+                                「～ほど、～ば～ほど、～ほど～ない」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="50-bakari-tabakari-tebakariiru.html" class="">
+                                「～ばかり、～たばかり、～てばかりいる」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="51-tokoro-tokoroe-tokoroni-tokorowo.html" class="">
+                                「～ところ、～ところへ、～ところに、～ところを」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="52-dake-dakeatte-dakenokotohaaru.html" class="">
+                                「～だけ、～だけあって、～だけのことはある」
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="53-toori-doori.html" class="">
+                                「～とおり、～どおり」
+                            </a>
+                        </li>
+                        
+                    </ul>
+                
+            </div>
+        </aside>
+
+        <!-- Nội dung bài học chính -->
+        <main class="content">
+            <h1 class="lesson-main-title">「にわたって vs につれて」</h1>
+            
+            
+            <div class="video-container">
+                <div class="video-wrapper" style="width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); background-color: #000;">
+    <iframe src="https://www.youtube.com/embed/yYWX751ShNE"
+        style="width: 100%; height: 100%; border: none;"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+</div>
+            </div>
+            
+            
+            <div class="markdown-body">
+                <p>Nội dung bài học <strong>「にわたって vs につれて」</strong>...</p>
+
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Đóng mở menu trên thiết bị di động
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('overlay').classList.toggle('open');
+        }
+
+        // Tự động cuộn phần Sidebar đến vị trí bài học đang Active
+        document.addEventListener("DOMContentLoaded", function() {
+            const activeLesson = document.querySelector('.sidebar a.active');
+            if (activeLesson) {
+                // Cuộn mượt đưa phần tử active vào giữa tầm nhìn của sidebar-content
+                activeLesson.scrollIntoView({ block: 'center', behavior: 'instant' });
+            }
+        });
+    </script>
+</body>
+</html>

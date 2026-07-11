@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>〜が下手です - Tiếng Nhật Dũng Rừng</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="data:,">
+</head>
+<body class="lesson-page">
+    <header class="site-header">
+        <h2><a href="../index.html">Tiếng Nhật Dũng Rừng</a></h2>
+    </header>
+
+    <!-- Thanh Topbar điều hướng tương đối -->
+    <div class="lesson-topbar">
+        <a href="index.html" class="back-link">❮ n5-bunpo</a>
+        <button class="menu-toggle" onclick="toggleMenu()">
+            <span class="menu-toggle-icon">☰</span>
+            Mục lục
+        </button>
+    </div>
+
+    <div class="lesson-layout">
+        <!-- Overlay nền tối trên Mobile -->
+        <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+        <!-- Left Menu (Hỗ trợ cuộn độc lập) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h3>Nội dung khóa học</h3>
+                <button class="close-btn" onclick="toggleMenu()">×</button>
+            </div>
+            <div class="sidebar-content" id="sidebar-content">
+                
+                    
+                        <h4 class="section-title">Ngữ pháp N5</h4>
+                    
+                    <ul class="section-list">
+                        
+                        <li>
+                            <a href="wa.html" class="">
+                                は
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="mo.html" class="">
+                                も
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="no.html" class="">
+                                の
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kore_sore_are_dore.html" class="">
+                                これ・それ・あれ・どれ
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kono_sono_ano_dono.html" class="">
+                                この・その・あの・どの
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="koko_soko_asoko_doko.html" class="">
+                                ここ・そこ・あそこ・どこ
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kochira_sochira_achira_dochira.html" class="">
+                                こちら・そちら・あちら・どちら
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="desu.html" class="">
+                                〜です
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dewa_arimasen.html" class="">
+                                〜ではありません
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="desu_ka.html" class="">
+                                〜ですか
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="nodesu_basic.html" class="">
+                                〜のです（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="arimasu.html" class="">
+                                あります
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="imasu.html" class="">
+                                います
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="ni_arimasu.html" class="">
+                                〜にあります
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="ni_imasu.html" class="">
+                                〜にいます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="ni_e_ikimasu.html" class="">
+                                〜に／へ行きます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kara_kimasu.html" class="">
+                                〜から来ます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="e.html" class="">
+                                〜へ
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="de.html" class="">
+                                〜で
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="ni.html" class="">
+                                〜に
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="wo.html" class="">
+                                〜を
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="to.html" class="">
+                                〜と
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="ya_nado.html" class="">
+                                〜や〜など
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kara.html" class="">
+                                〜から
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="made.html" class="">
+                                〜まで
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="yori.html" class="">
+                                〜より
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dochira.html" class="">
+                                〜と〜と、どちら
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="masu.html" class="">
+                                動詞ます形
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dictionary_form.html" class="">
+                                動詞辞書形
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="nai_form.html" class="">
+                                動詞ない形
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="te_form.html" class="">
+                                動詞て形
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="ta_form.html" class="">
+                                動詞た形
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="masenka.html" class="">
+                                〜ませんか
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="mashou.html" class="">
+                                〜ましょう
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="mashouka.html" class="">
+                                〜ましょうか
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="tai.html" class="">
+                                〜たいです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="takunai.html" class="">
+                                〜たくないです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="ni_ikimasu.html" class="">
+                                〜に行きます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="teimasu_progressive.html" class="">
+                                〜ています（進行）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="teimasu_state.html" class="">
+                                〜ています（状態）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="tekudasai.html" class="">
+                                〜てください
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="temoii.html" class="">
+                                〜てもいいです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="tewaikemasen.html" class="">
+                                〜てはいけません
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="tekara.html" class="">
+                                〜てから
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="teshimaimasu_basic.html" class="">
+                                〜てしまいます（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="i_adjective.html" class="">
+                                い形容詞
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="na_adjective.html" class="">
+                                な形容詞
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="i_adjective_past.html" class="">
+                                い形容詞の過去
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="na_adjective_past.html" class="">
+                                な形容詞の過去
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="i_adjective_negative.html" class="">
+                                い形容詞の否定
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="na_adjective_negative.html" class="">
+                                な形容詞の否定
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="souda_appearance.html" class="">
+                                〜そうです（様態・初級）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="suki.html" class="">
+                                〜が好きです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kirai.html" class="">
+                                〜が嫌いです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="jouzu.html" class="">
+                                〜が上手です
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="heta.html" class="active">
+                                〜が下手です
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="hoshii.html" class="">
+                                〜が欲しいです
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="hoshii_basic.html" class="">
+                                〜ほしいと言います（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kotogadekimasu.html" class="">
+                                〜ことができます
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="maeni.html" class="">
+                                〜前に
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="atode.html" class="">
+                                〜あとで
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="nagara.html" class="">
+                                〜ながら（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="tari_tari.html" class="">
+                                〜たり〜たりします
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="takotogaarimasu.html" class="">
+                                〜たことがあります
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="to_omoimasu.html" class="">
+                                〜と思います（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="to_iimasu.html" class="">
+                                〜と言います
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="node.html" class="">
+                                〜ので
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kara_reason.html" class="">
+                                〜から（理由）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="ga.html" class="">
+                                〜が（逆接・導入）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kedo.html" class="">
+                                〜けど（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="mada_teimasen.html" class="">
+                                〜まだ〜ていません
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="mou_mashita.html" class="">
+                                もう〜ました
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="juu.html" class="">
+                                〜中
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="shika.html" class="">
+                                〜しか〜ません（基本）
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="dake.html" class="">
+                                〜だけ
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="kurai.html" class="">
+                                〜くらい／ぐらい
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="gimonshi.html" class="">
+                                疑問詞
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="counter.html" class="">
+                                数・助数詞
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="time.html" class="">
+                                時間表現
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="date.html" class="">
+                                日付表現
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="frequency.html" class="">
+                                頻度表現
+                            </a>
+                        </li>
+                        
+                    </ul>
+                
+            </div>
+        </aside>
+
+        <!-- Nội dung bài học chính -->
+        <main class="content">
+            <h1 class="lesson-main-title">〜が下手です</h1>
+            
+            
+            
+            <div class="markdown-body">
+                <p>Nội dung bài học <strong>〜が下手です</strong> sẽ được viết tại đây...</p>
+
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Đóng mở menu trên thiết bị di động
+        function toggleMenu() {
+            document.getElementById('sidebar').classList.toggle('open');
+            document.getElementById('overlay').classList.toggle('open');
+        }
+
+        // Tự động cuộn phần Sidebar đến vị trí bài học đang Active
+        document.addEventListener("DOMContentLoaded", function() {
+            const activeLesson = document.querySelector('.sidebar a.active');
+            if (activeLesson) {
+                // Cuộn mượt đưa phần tử active vào giữa tầm nhìn của sidebar-content
+                activeLesson.scrollIntoView({ block: 'center', behavior: 'instant' });
+            }
+        });
+    </script>
+</body>
+</html>
